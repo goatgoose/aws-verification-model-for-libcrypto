@@ -69,6 +69,10 @@ typedef int ASN1_BOOLEAN;
 typedef int ASN1_NULL;
 #endif
 
+typedef struct asn1_object_st {
+
+} ASN1_OBJECT;
+
 #ifdef BIGNUM
 #    undef BIGNUM
 #endif
